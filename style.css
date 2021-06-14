@@ -119,6 +119,6 @@ g {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 .legend {
-  margin-top: 2rem;
-  color: #fff;
+  margin-top: 3rem;
+  fill: #fff;
 }
