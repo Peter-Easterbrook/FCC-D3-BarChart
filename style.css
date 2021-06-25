@@ -113,17 +113,6 @@ g {
   font-weight: 100;
 }
 
-#tooltip {
-  position: absolute;
-  right: 7%;
-  top: 27%;
-  margin-top: 0.6rem;
-  color: #feffff;
-  font-size: 2rem;
-  padding: 0.4rem 1rem;
-  font-weight: 300;
-}
-
 #title {
   font-size: 2rem;
   font-weight: 300;
@@ -135,6 +124,13 @@ g {
   background-color: #000;
   border-radius: 0.5rem;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 7%;
+  top: 27%;
+  margin-top: 0.6rem;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 #legend {
   position: absolute;
