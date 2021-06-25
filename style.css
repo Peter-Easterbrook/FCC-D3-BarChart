@@ -82,10 +82,10 @@ body::-webkit-scrollbar-track {
 h1,
 h4 {
   color: #fff;
-  margin-bottom: 0.6rem;
+  margin: 1rem auto;
   background-color: #000;
   border: 1px solid #fff;
-  padding: 0.6rem 1rem;
+  padding: 0.5rem 1rem;
   border-radius: 0.4rem;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
@@ -114,10 +114,13 @@ g {
 }
 
 #tooltip {
+  position: absolute;
+  right: 7%;
+  top: 27%;
   margin-top: 0.6rem;
   color: #feffff;
   font-size: 2rem;
-  padding: 0.6rem 1.2rem;
+  padding: 0.4rem 1rem;
   font-weight: 300;
 }
 
@@ -125,7 +128,6 @@ g {
   font-size: 2rem;
   font-weight: 300;
   fill: #fff;
-  margin-bottom: 2rem;
 }
 .data-result {
   border: 1px solid #fff;
@@ -135,9 +137,11 @@ g {
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
 }
 #legend {
-  text-transform: uppercase;
+  position: absolute;
+  right: 5%;
+  top: 20%;
   font-size: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 0.6rem;
   font-weight: 300;
   color: #fff;
   padding: 0.6rem 1.2rem;
