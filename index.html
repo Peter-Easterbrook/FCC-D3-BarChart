@@ -29,14 +29,26 @@
       color="#5bbad5"
     />
     <title>FCC Bar Chart</title>
+    <script src="script.js" defer></script>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <canvas id="thpace"></canvas>
     <h1 id="title" class="title">US GDP 1947-2015</h1>
     <h4 id="legend">X-Axis = Year / Y-Axis = $ Billion</h4>
     <svg id="canvas"></svg>
 
-    <script src="script.js" defer></script>
+    <script src="thpace.min.js"></script>
+    <script>
+      const d3canvas = document.getElementById('thpace');
+
+      const d3settings = {
+        colors: ['#000', '#0069d2', '#000'],
+        triangleSize: 65,
+      };
+
+      ThpaceGL.create(d3canvas, d3settings);
+    </script>
   </body>
 </html>
