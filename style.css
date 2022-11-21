@@ -125,10 +125,9 @@ g {
 #legend {
   position: absolute;
   right: 5%;
-  top: 20%;
+  top: 25%;
   font-size: 1rem;
-  margin-bottom: 0.6rem;
-  font-weight: 300;
+  font-weight: 200;
   color: #fff;
   padding: 0.6rem 1.2rem;
 }
